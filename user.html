@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Bookstore</h1>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search books...">
+        <ul id="search-suggestions"></ul>
+    </div>
+
+    <div id="filters">
+        <label for="filter-title">Title:</label>
+        <input type="text" id="filter-title">
+
+        <label for="filter-author">Author:</label>
+        <input type="text" id="filter-author">
+
+        <label for="filter-subject">Subject:</label>
+        <input type="text" id="filter-subject">
+
+        <label for="filter-publish-date">Publish Date:</label>
+        <input type="text" id="filter-publish-date">
+    </div>
+
+    <div id="book-list"></div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
